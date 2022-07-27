@@ -31,6 +31,13 @@ Install and run demo:
 
     2. run the demo file: 
         python demo.py
+        
+    3. Train:
+        3.1. Train the whole network:
+            python main.py
+
+        3.2. And then fine-turn the fusion branch with the contrast loss:
+            python main.py --finetune_AAF
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
